@@ -10,7 +10,7 @@ In this we develop an project of a app that helps a staffing agency manage its s
 
 This basic app has many of the features you'd expect to find in a data-driven application. It acquires and displays a list of professionals, edits a selected professional's detail, and navigates among different views of professional's data.
 
-## Conceitos abordados (Addressed concepts)
+## Conceitos abordados
 
 
 * Diretivas Estruturais nativas do Angular para exibir e ocultar elementos e listar dados de profissionais.
@@ -23,6 +23,7 @@ This basic app has many of the features you'd expect to find in a data-driven ap
 * Criação de serviços compartilhados usando o conceito de Injeção de Dependências
 * Uso de rotas para navegação entre diferentes views e seus componentes.
 
+## Addressed concepts
 
 * Use built-in Angular directives to show and hide elements and display lists of profissional data.
 * Create Angular components to display profissional details and show an array of profissionais.
