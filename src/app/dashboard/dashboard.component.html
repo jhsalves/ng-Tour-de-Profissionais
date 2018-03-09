@@ -1,0 +1,9 @@
+<h3>Top Profissionais</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let profissional of profissionais" class="col-1-4" routerLink="/detail/{{profissional.id}}">
+    <div class="module hero">
+      <h4>{{profissional.name}}</h4>
+    </div>
+  </a>
+</div>
+<app-profissional-search></app-profissional-search>

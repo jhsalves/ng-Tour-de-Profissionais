@@ -1,0 +1,15 @@
+<h2>Meus Profissionais</h2>
+<div>
+  <label>
+    <input #profissionalName/>
+  </label>
+  <button (click)="add(profissionalName.value); profissionalName.value=''">add</button>
+</div>
+<ul class="heroes">
+  <li *ngFor="let profissional of profissionais">
+    <a routerLink="/detail/{{profissional.id}}">
+      <span class="badge">{{profissional.id}}</span> {{profissional.name}}
+    </a>
+    <button class="delete" title="deletar profissional" (click)="delete(profissional)">x</button>
+  </li>
+</ul>

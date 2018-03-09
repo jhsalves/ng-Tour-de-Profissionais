@@ -1,0 +1,11 @@
+<div id="search-component">
+  <h4>Buscar profissional</h4>
+  <input #searchBox id="search-box" (keyup)="search(searchBox.value)"/>
+  <ul class="search-result">
+    <li *ngFor="let profissional of profissionais$ | async" class="search-result">
+      <a routerLink="/detail/{{profissional.id}}">
+        {{profissional.name}}
+      </a>
+    </li>
+  </ul>
+</div>
